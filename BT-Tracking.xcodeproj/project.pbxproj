@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46242388243E5985006E807D /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46242387243E5985006E807D /* RealmProvider.swift */; };
 		4657C454243BD03D009E0E85 /* NotificationPermissionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4657C453243BD03D009E0E85 /* NotificationPermissionController.swift */; };
 		46A0D52A242CC38900FAE9EA /* UnregisterUser.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46A0D529242CC38900FAE9EA /* UnregisterUser.storyboard */; };
 		46A0D52F242CEB8A00FAE9EA /* DeleteDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46A0D52E242CEB8A00FAE9EA /* DeleteDataVC.swift */; };
@@ -91,6 +92,7 @@
 /* Begin PBXFileReference section */
 		1CD7988E40794677C8502523 /* Pods_BT_Tracking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BT_Tracking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		415971C466B2F5E07A8A5EB4 /* Pods-BT-Tracking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BT-Tracking.release.xcconfig"; path = "Target Support Files/Pods-BT-Tracking/Pods-BT-Tracking.release.xcconfig"; sourceTree = "<group>"; };
+		46242387243E5985006E807D /* RealmProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
 		4649848424201E4600A858A9 /* FileLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLogger.swift; sourceTree = "<group>"; };
 		4657C453243BD03D009E0E85 /* NotificationPermissionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionController.swift; sourceTree = "<group>"; };
 		46A0D529242CC38900FAE9EA /* UnregisterUser.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UnregisterUser.storyboard; sourceTree = "<group>"; };
@@ -228,6 +230,7 @@
 				46F21CAE2422597F00C01DFA /* Scan.swift */,
 				80ECB95D24290B6700E57601 /* ScanRealm.swift */,
 				46F21CB3242270F700C01DFA /* ScannerStore.swift */,
+				46242387243E5985006E807D /* RealmProvider.swift */,
 			);
 			path = Store;
 			sourceTree = "<group>";
@@ -635,6 +638,7 @@
 				80610BD9243B13AE00E031C8 /* String.swift in Sources */,
 				805BE97924252AE6001A93B3 /* MulticastDelegate.swift in Sources */,
 				46F21CA72422442D00C01DFA /* ScanListVM.swift in Sources */,
+				46242388243E5985006E807D /* RealmProvider.swift in Sources */,
 				C4E1A1B524311D3800108325 /* RemoteValues.swift in Sources */,
 				8054C0E22420EFE0008907B8 /* FileLogger.swift in Sources */,
 				46F21CA92422444600C01DFA /* ScanListVC.swift in Sources */,
