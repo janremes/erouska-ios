@@ -20,12 +20,18 @@ final class ActiveAppController: UIViewController {
     
     // MARK: - Outlets
 
+    @IBOutlet weak var mainStackView: UIStackView!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var headLabel: UILabel!
     @IBOutlet weak var titleLabel: UILabel!
+    @IBOutlet weak var tipsLabel: UILabel!
+    @IBOutlet weak var firstTipLabel: UILabel!
+    @IBOutlet weak var secondTipLabel: UILabel!
     @IBOutlet weak var textLabel: UILabel!
     @IBOutlet weak var actionButton: Button!
-
+    @IBOutlet weak var cardView: UIView!
+    @IBOutlet weak var actionButtonWidthConstraint: NSLayoutConstraint!
+    
     // MARK: -
 
     override func viewDidLoad() {
@@ -46,6 +52,11 @@ final class ActiveAppController: UIViewController {
 
         updateScanner()
         updateInterface()
+    }
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        layoutCardView()
     }
 
     override func viewDidAppear(_ animated: Bool) {
@@ -167,13 +178,26 @@ private extension ActiveAppController {
     func updateInterface() {
         navigationController?.tabBarItem.image = viewModel.state.tabBarIcon
 
+        guard mainStackView.arrangedSubviews.count >= 4 else { return }
+        let isHiddenArrangedSubview = viewModel.state != .enabled
+        mainStackView.arrangedSubviews[2].isHidden = isHiddenArrangedSubview
+        mainStackView.arrangedSubviews[3].isHidden = isHiddenArrangedSubview
+        mainStackView.arrangedSubviews[4].isHidden = isHiddenArrangedSubview
         imageView.image = viewModel.state.image
         headLabel.text = viewModel.state.head
         headLabel.textColor = viewModel.state.color
         titleLabel.text = viewModel.state.title
+        tipsLabel.text = viewModel.state.tips
+        firstTipLabel.text = viewModel.state.firstTip
+        secondTipLabel.text = viewModel.state.secondTip
         textLabel.text = viewModel.state.text.replacingOccurrences(of: "%@", with: Auth.auth().currentUser?.phoneNumber?.phoneFormatted ?? "")
-        actionButton.style = viewModel.state.actionStyle
         actionButton.setTitle(viewModel.state.actionTitle, for: .normal)
+        // Apply element size fix for iPhone SE size screens only
+        cardView.layoutIfNeeded()
+        if cardView.bounds.width <= 288 {
+            actionButtonWidthConstraint.constant = viewModel.state == .enabled ? 120 : 100
+            actionButton.layoutIfNeeded()
+        }
     }
 
     func checkForBluetooth() {
@@ -212,5 +236,22 @@ private extension ActiveAppController {
     private func openSettings() {
         guard let settingsUrl = URL(string: UIApplication.openSettingsURLString), UIApplication.shared.canOpenURL(settingsUrl) else { return }
         UIApplication.shared.open(settingsUrl)
+    }
+    
+    private func layoutCardView() {
+        cardView.layoutIfNeeded()
+        // Card shape
+        cardView.layer.cornerRadius = 9.0
+        // Shadow
+        let shadowPath = UIBezierPath(roundedRect: cardView.bounds, cornerRadius: 9.0)
+        if #available(iOS 13.0, *) {
+            cardView.layer.shadowColor = UIColor.label.withAlphaComponent(0.25).cgColor
+        } else {
+            cardView.layer.shadowColor = UIColor.black.withAlphaComponent(0.25).cgColor
+        }
+        cardView.layer.shadowOffset = CGSize(width: 0.0, height: 1.0)
+        cardView.layer.shadowRadius = 2.0
+        cardView.layer.shadowOpacity = 1.0
+        cardView.layer.shadowPath = shadowPath.cgPath
     }
 }
