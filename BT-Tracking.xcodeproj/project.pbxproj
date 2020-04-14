@@ -18,6 +18,30 @@
 		5E110F9C2433C4AD0059712A /* UnregisterFinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E110F9B2433C4AD0059712A /* UnregisterFinishVC.swift */; };
 		5EA3C7B52442038E009BBF38 /* HelpMarkdownBackup.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EA3C7B42442038E009BBF38 /* HelpMarkdownBackup.strings */; };
 		5EE9D815242F74F5002F833C /* DataHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE9D814242F74F5002F833C /* DataHeaderCell.swift */; };
+		7CF665B42446380A004C5D43 /* ContactTracingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B32446380A004C5D43 /* ContactTracingManager.swift */; };
+		7CF665B52446380A004C5D43 /* ContactTracingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B32446380A004C5D43 /* ContactTracingManager.swift */; };
+		7CF665B72446382D004C5D43 /* ContactTracingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B62446382D004C5D43 /* ContactTracingDelegate.swift */; };
+		7CF665B82446382D004C5D43 /* ContactTracingDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B62446382D004C5D43 /* ContactTracingDelegate.swift */; };
+		7CF665BA2446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B92446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift */; };
+		7CF665BB2446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665B92446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift */; };
+		7CF665BD244638C2004C5D43 /* ContactTracing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665BC244638C2004C5D43 /* ContactTracing.swift */; };
+		7CF665BE244638C2004C5D43 /* ContactTracing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665BC244638C2004C5D43 /* ContactTracing.swift */; };
+		7CF665C124463B56004C5D43 /* CTStateGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C024463B56004C5D43 /* CTStateGetRequest.swift */; };
+		7CF665C224463B56004C5D43 /* CTStateGetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C024463B56004C5D43 /* CTStateGetRequest.swift */; };
+		7CF665C424463B8C004C5D43 /* CTStateSetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C324463B8C004C5D43 /* CTStateSetRequest.swift */; };
+		7CF665C524463B8C004C5D43 /* CTStateSetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C324463B8C004C5D43 /* CTStateSetRequest.swift */; };
+		7CF665C724463BC6004C5D43 /* CTDailyTracingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C624463BC6004C5D43 /* CTDailyTracingKey.swift */; };
+		7CF665C824463BC6004C5D43 /* CTDailyTracingKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C624463BC6004C5D43 /* CTDailyTracingKey.swift */; };
+		7CF665CA24463C13004C5D43 /* CTContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C924463C13004C5D43 /* CTContactInfo.swift */; };
+		7CF665CB24463C13004C5D43 /* CTContactInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665C924463C13004C5D43 /* CTContactInfo.swift */; };
+		7CF665CD24463CF0004C5D43 /* CTSelfTracingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665CC24463CF0004C5D43 /* CTSelfTracingInfo.swift */; };
+		7CF665CE24463CF0004C5D43 /* CTSelfTracingInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665CC24463CF0004C5D43 /* CTSelfTracingInfo.swift */; };
+		7CF665D024463D56004C5D43 /* CTExposureDetectionSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665CF24463D56004C5D43 /* CTExposureDetectionSummary.swift */; };
+		7CF665D124463D56004C5D43 /* CTExposureDetectionSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665CF24463D56004C5D43 /* CTExposureDetectionSummary.swift */; };
+		7CF665D324463FC2004C5D43 /* CTSelfTracingInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665D224463FC2004C5D43 /* CTSelfTracingInfoRequest.swift */; };
+		7CF665D424463FC2004C5D43 /* CTSelfTracingInfoRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665D224463FC2004C5D43 /* CTSelfTracingInfoRequest.swift */; };
+		7CF665D624464079004C5D43 /* CTExposureDetectionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665D524464079004C5D43 /* CTExposureDetectionSession.swift */; };
+		7CF665D724464079004C5D43 /* CTExposureDetectionSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF665D524464079004C5D43 /* CTExposureDetectionSession.swift */; };
 		800DD2D62428F49800E6CAEA /* Debug.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8054C0B6241D492F008907B8 /* Debug.storyboard */; };
 		801B54C0243C624700A5D81E /* KeychainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801B54BF243C624700A5D81E /* KeychainService.swift */; };
 		803C5B23242932BF00E49414 /* DataListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803C5B22242932BF00E49414 /* DataListVC.swift */; };
@@ -103,6 +127,18 @@
 		5EA3C7B42442038E009BBF38 /* HelpMarkdownBackup.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = HelpMarkdownBackup.strings; sourceTree = "<group>"; };
 		5EE9D814242F74F5002F833C /* DataHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHeaderCell.swift; sourceTree = "<group>"; };
 		7235650B7A53BA0BF25B7647 /* Pods-BT-Tracking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BT-Tracking.debug.xcconfig"; path = "Target Support Files/Pods-BT-Tracking/Pods-BT-Tracking.debug.xcconfig"; sourceTree = "<group>"; };
+		7CF665B32446380A004C5D43 /* ContactTracingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTracingManager.swift; sourceTree = "<group>"; };
+		7CF665B62446382D004C5D43 /* ContactTracingDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTracingDelegate.swift; sourceTree = "<group>"; };
+		7CF665B92446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CTExposureDetectionSession+Extensions.swift"; sourceTree = "<group>"; };
+		7CF665BC244638C2004C5D43 /* ContactTracing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTracing.swift; sourceTree = "<group>"; };
+		7CF665C024463B56004C5D43 /* CTStateGetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTStateGetRequest.swift; sourceTree = "<group>"; };
+		7CF665C324463B8C004C5D43 /* CTStateSetRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTStateSetRequest.swift; sourceTree = "<group>"; };
+		7CF665C624463BC6004C5D43 /* CTDailyTracingKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTDailyTracingKey.swift; sourceTree = "<group>"; };
+		7CF665C924463C13004C5D43 /* CTContactInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTContactInfo.swift; sourceTree = "<group>"; };
+		7CF665CC24463CF0004C5D43 /* CTSelfTracingInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSelfTracingInfo.swift; sourceTree = "<group>"; };
+		7CF665CF24463D56004C5D43 /* CTExposureDetectionSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTExposureDetectionSummary.swift; sourceTree = "<group>"; };
+		7CF665D224463FC2004C5D43 /* CTSelfTracingInfoRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTSelfTracingInfoRequest.swift; sourceTree = "<group>"; };
+		7CF665D524464079004C5D43 /* CTExposureDetectionSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CTExposureDetectionSession.swift; sourceTree = "<group>"; };
 		801B54BF243C624700A5D81E /* KeychainService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainService.swift; sourceTree = "<group>"; };
 		803C5B22242932BF00E49414 /* DataListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListVC.swift; sourceTree = "<group>"; };
 		803C5B242429346500E49414 /* DataListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListVM.swift; sourceTree = "<group>"; };
@@ -238,6 +274,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		7CF665AF2446379A004C5D43 /* ContactTracing */ = {
+			isa = PBXGroup;
+			children = (
+				7CF665BF24463B32004C5D43 /* Providers */,
+				7CF665B32446380A004C5D43 /* ContactTracingManager.swift */,
+				7CF665B62446382D004C5D43 /* ContactTracingDelegate.swift */,
+				7CF665B92446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift */,
+				7CF665BC244638C2004C5D43 /* ContactTracing.swift */,
+			);
+			path = ContactTracing;
+			sourceTree = "<group>";
+		};
+		7CF665BF24463B32004C5D43 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				7CF665C024463B56004C5D43 /* CTStateGetRequest.swift */,
+				7CF665C324463B8C004C5D43 /* CTStateSetRequest.swift */,
+				7CF665C624463BC6004C5D43 /* CTDailyTracingKey.swift */,
+				7CF665C924463C13004C5D43 /* CTContactInfo.swift */,
+				7CF665CC24463CF0004C5D43 /* CTSelfTracingInfo.swift */,
+				7CF665CF24463D56004C5D43 /* CTExposureDetectionSummary.swift */,
+				7CF665D224463FC2004C5D43 /* CTSelfTracingInfoRequest.swift */,
+				7CF665D524464079004C5D43 /* CTExposureDetectionSession.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
 		8054C0A4241D492F008907B8 = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +362,7 @@
 		8054C0CC241FE6D5008907B8 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				7CF665AF2446379A004C5D43 /* ContactTracing */,
 				805BE9742424DDDE001A93B3 /* Bluetooth */,
 				46F21CB524227E5D00C01DFA /* Store */,
 				80ECB96724291E1B00E57601 /* CSV */,
@@ -619,6 +683,8 @@
 				80631A98242CAB5000EB0B6C /* Image.swift in Sources */,
 				BD979AEB242565AF004001ED /* ActiveAppController.swift in Sources */,
 				8075EDC3242A6E93001D9DCD /* ContactsController.swift in Sources */,
+				7CF665CD24463CF0004C5D43 /* CTSelfTracingInfo.swift in Sources */,
+				7CF665D624464079004C5D43 /* CTExposureDetectionSession.swift in Sources */,
 				8054C0CE241FE6D5008907B8 /* BTAdvertiser.swift in Sources */,
 				807053532427BA2500DC1034 /* Data.swift in Sources */,
 				801B54C0243C624700A5D81E /* KeychainService.swift in Sources */,
@@ -627,13 +693,20 @@
 				46F21CA72422442D00C01DFA /* ScanListVM.swift in Sources */,
 				C4E1A1B524311D3800108325 /* RemoteValues.swift in Sources */,
 				8054C0E22420EFE0008907B8 /* FileLogger.swift in Sources */,
+				7CF665B42446380A004C5D43 /* ContactTracingManager.swift in Sources */,
+				7CF665D324463FC2004C5D43 /* CTSelfTracingInfoRequest.swift in Sources */,
 				46F21CA92422444600C01DFA /* ScanListVC.swift in Sources */,
+				7CF665CA24463C13004C5D43 /* CTContactInfo.swift in Sources */,
 				8075EDC0242A613F001D9DCD /* AppSettings.swift in Sources */,
 				8054C0DA24200E91008907B8 /* LogController.swift in Sources */,
 				46F21CB4242270F700C01DFA /* ScannerStore.swift in Sources */,
 				80B94557242B96560052CD9F /* NavigationController.swift in Sources */,
 				8054C0D824200E7C008907B8 /* FileLogController.swift in Sources */,
+				7CF665B72446382D004C5D43 /* ContactTracingDelegate.swift in Sources */,
+				7CF665C124463B56004C5D43 /* CTStateGetRequest.swift in Sources */,
 				80ECB96924291E2F00E57601 /* CSVWriter.swift in Sources */,
+				7CF665C424463B8C004C5D43 /* CTStateSetRequest.swift in Sources */,
+				7CF665BA2446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift in Sources */,
 				80B94555242B7B460052CD9F /* ActiveAppViewModel.swift in Sources */,
 				5EE9D815242F74F5002F833C /* DataHeaderCell.swift in Sources */,
 				80D5F7E52423D8740010EF51 /* CompleteActivationController.swift in Sources */,
@@ -645,13 +718,16 @@
 				80BB47642422865B00F552FC /* Button.swift in Sources */,
 				80D2C63E242AB44E00F9DBF4 /* TabBarController.swift in Sources */,
 				807053582427C5AA00DC1034 /* InfoCell.swift in Sources */,
+				7CF665C724463BC6004C5D43 /* CTDailyTracingKey.swift in Sources */,
 				46A0D531242CEB9500FAE9EA /* DeleteDataVM.swift in Sources */,
 				80ECB96624290DA900E57601 /* Collection.swift in Sources */,
 				80ECB96424290C1000E57601 /* SectionTitleCell.swift in Sources */,
 				80610BD024363D7B00E031C8 /* Auth.swift in Sources */,
 				80799BEB2423B89A002B04C5 /* Controller.swift in Sources */,
 				8054C0DD2420AF63008907B8 /* App.swift in Sources */,
+				7CF665D024463D56004C5D43 /* CTExposureDetectionSummary.swift in Sources */,
 				805BE9772424DE0E001A93B3 /* BTDevice.swift in Sources */,
+				7CF665BD244638C2004C5D43 /* ContactTracing.swift in Sources */,
 				46F21CAF2422597F00C01DFA /* Scan.swift in Sources */,
 				5E110F9C2433C4AD0059712A /* UnregisterFinishVC.swift in Sources */,
 				8054C0D2241FE720008907B8 /* BT.swift in Sources */,
@@ -665,16 +741,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CF665D724464079004C5D43 /* CTExposureDetectionSession.swift in Sources */,
 				80BB474924212A3C00F552FC /* LogSegmentController.swift in Sources */,
+				7CF665D424463FC2004C5D43 /* CTSelfTracingInfoRequest.swift in Sources */,
 				80BE18B4243391F500C4A9E6 /* RemoteValues.swift in Sources */,
+				7CF665BE244638C2004C5D43 /* ContactTracing.swift in Sources */,
+				7CF665C224463B56004C5D43 /* CTStateGetRequest.swift in Sources */,
+				7CF665C524463B8C004C5D43 /* CTStateSetRequest.swift in Sources */,
 				80BB474A24212A3C00F552FC /* Logger.swift in Sources */,
+				7CF665B82446382D004C5D43 /* ContactTracingDelegate.swift in Sources */,
 				80BB474B24212A3C00F552FC /* BTAdvertiser.swift in Sources */,
 				80BB474C24212A3C00F552FC /* FileLogger.swift in Sources */,
 				80BB474D24212A3C00F552FC /* LogController.swift in Sources */,
 				80BB474E24212A3C00F552FC /* FileLogController.swift in Sources */,
+				7CF665B52446380A004C5D43 /* ContactTracingManager.swift in Sources */,
+				7CF665CE24463CF0004C5D43 /* CTSelfTracingInfo.swift in Sources */,
+				7CF665CB24463C13004C5D43 /* CTContactInfo.swift in Sources */,
+				7CF665BB2446388E004C5D43 /* CTExposureDetectionSession+Extensions.swift in Sources */,
 				80BB474F24212A3C00F552FC /* AppDelegate.swift in Sources */,
+				7CF665C824463BC6004C5D43 /* CTDailyTracingKey.swift in Sources */,
 				80BB475024212A3C00F552FC /* BTScanner.swift in Sources */,
 				80BB475124212A3C00F552FC /* App.swift in Sources */,
+				7CF665D124463D56004C5D43 /* CTExposureDetectionSummary.swift in Sources */,
 				80BB475224212A3C00F552FC /* BT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
